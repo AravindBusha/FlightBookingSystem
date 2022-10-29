@@ -1,6 +1,7 @@
 Body {
-    font-family: Calibri, Helvetica, sans-serif;
-    background-color: #98A8F8;
+    background: url(image1.jpeg);
+    background-position-y: 1400px;
+    background-position-x: -200px;
 }
 
 form {
@@ -41,5 +42,6 @@ input[type=password] {
     height: 500px;
     width: 400px;
     padding: 25px;
-    background-color: #BCCEF8;
+    background-image: linear-gradient( #FFC27A, #FB8943, #F96F32);
+    background-color: #FFC27A;
 }
