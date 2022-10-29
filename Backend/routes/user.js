@@ -45,7 +45,6 @@ router.post('/signup', async (req, res) => {
         }
 
         const hashedPassword = await bcrypt.hash(password, 12);
-        const arr = new Array();
 
         const result = await User.create({ email, password: hashedPassword, name});
 
@@ -57,18 +56,18 @@ router.post('/signup', async (req, res) => {
         console.log(error);
     }
 });
-router.get('/dashboard', (req, res)=> {
-    try {
-        const {flightId} = req.body;
+// router.get('/dashboard', (req, res)=> {
+//     try {
+//         const {flightId} = req.body;
         
 
-    }
-    catch(error) {
-        res.status(500).json({ message: "Something went wrong" });
+//     }
+//     catch(error) {
+//         res.status(500).json({ message: "Something went wrong" });
 
-        console.log(error);
-    }
-});
+//         console.log(error);
+//     }
+// });
 
 
 module.exports = router;
