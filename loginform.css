@@ -1,0 +1,47 @@
+Body {
+    background: url(image1.jpeg);
+    background-position-y: 1400px;
+    background-position-x: -200px;
+}
+
+form {
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+#login {
+    padding-top: 40px;
+}
+
+button {
+    border-radius: 25px;
+    background-color: #0B5475;
+    width: 100%;
+    color: white;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=password] {
+    background: #E5E4E4;
+    border-radius: 25px;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid #0B5475;
+    box-sizing: border-box;
+}
+
+.form_container {
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    padding: 25px;
+    background-image: linear-gradient( #FFC27A, #FB8943, #F96F32);
+    background-color: #FFC27A;
+}
