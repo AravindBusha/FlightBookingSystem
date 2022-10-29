@@ -3,7 +3,7 @@ const User = require("../models/user.js");
 const bcrypt = require("bcrypt");
 const router = express.Router();
 
-//Have to add notes to the user
+
 router.get('/signin', async (req, res) => {
     try {
         
